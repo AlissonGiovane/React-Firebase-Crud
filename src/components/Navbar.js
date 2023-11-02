@@ -1,7 +1,7 @@
 import React from 'react';
 import {Menu, Container, Button, Image} from "semantic-ui-react";
 import { useNavigate, Link } from 'react-router-dom';
-import logo from "./../marca-taugor.png";
+import logo from "./../logo.svg";
 
 const NavBar = () => {
 const navigate = useNavigate();
@@ -14,7 +14,7 @@ style={{padding: "0.3rem",
     <Container>
         <Menu.Item name="home">
         <Link to="/">
-                <Image size="medium"
+                <Image size="mini"
                 src={logo} 
                 alt="logo"
                 />
